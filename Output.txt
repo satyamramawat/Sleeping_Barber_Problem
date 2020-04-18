@@ -1,0 +1,107 @@
+(base) Satyams-MacBook-Pro:SleepingBarberProblem satyamramawat$ javac *.java -d .
+(base) Satyams-MacBook-Pro:SleepingBarberProblem satyamramawat$ java SleepingBarber 3 6
+*****************************************************************************
+Available processor cores is 4
+
+
+Number of Barbers in the shop: 3 and each barber has its own chair
+Number of Waiting Chairs in the shop: 6
+
+*****************************************************************************
+Barber 1 id: 724053041
+Barber 1 waiting for customer and fall asleep
+Barber 2 id: 636475172
+Barber 2 waiting for customer and fall asleep
+Barber 3 id: 567297857
+Barber 3 waiting for customer and fall asleep
+
+Parallel Execution Time : 56 milliseconds.
+
+Customer : Customer 1(Thread id15) entering the shop at Mon Mar 16 13:45:24 GMT 2020
+Customer : Customer 1(Thread id15) got the chair.
+Customer : Customer 2(Thread id16) entering the shop at Mon Mar 16 13:45:30 GMT 2020
+Customer : Customer 2(Thread id16) got the chair.
+Barber 3 has been awaken by a customer from the queue.
+Cuting hair of Customer : Customer 1(Thread id15)by Barber 3
+Barber 1 has been awaken by a customer from the queue.
+Cuting hair of Customer : Customer 2(Thread id16)by Barber 1
+Barber 2 fall asleep while waiting for customer.
+Customer : Customer 3(Thread id17) entering the shop at Mon Mar 16 13:45:36 GMT 2020
+Customer : Customer 3(Thread id17) got the chair.
+Barber 2 has been awaken by a customer from the queue.
+Cuting hair of Customer : Customer 3(Thread id17)by Barber 2
+Customer : Customer 4(Thread id18) entering the shop at Mon Mar 16 13:45:44 GMT 2020
+Customer : Customer 4(Thread id18) got the chair.
+Completed Cuting hair of Customer : Customer 1(Thread id15)by Barber 3 in 15 seconds.
+Completed Cuting hair of Customer : Customer 2(Thread id16)by Barber 1 in 15 seconds.
+Barber 3 waiting for customer, awake customer if any customer avaialble in queue else fall asleep
+Barber 1 waiting for customer, awake customer if any customer avaialble in queue else fall asleep
+Barber 3 has been awaken by a customer from the queue.
+Cuting hair of Customer : Customer 4(Thread id18)by Barber 3
+Barber 1 fall asleep while waiting for customer.
+Customer : Customer 5(Thread id19) entering the shop at Mon Mar 16 13:45:50 GMT 2020
+Customer : Customer 5(Thread id19) got the chair.
+Barber 1 has been awaken by a customer from the queue.
+Cuting hair of Customer : Customer 5(Thread id19)by Barber 1
+Completed Cuting hair of Customer : Customer 3(Thread id17)by Barber 2 in 15 seconds.
+Barber 2 waiting for customer from the queue and fall asleep.
+Barber 2 fall asleep while waiting for customer.
+Customer : Customer 6(Thread id20) entering the shop at Mon Mar 16 13:45:56 GMT 2020
+Customer : Customer 6(Thread id20) got the chair.
+Barber 2 has been awaken by a customer from the queue.
+Cuting hair of Customer : Customer 6(Thread id20)by Barber 2
+Completed Cuting hair of Customer : Customer 6(Thread id20)by Barber 2 in 5 seconds.
+Barber 2 waiting for customer from the queue and fall asleep.
+Barber 2 fall asleep while waiting for customer.
+Customer : Customer 7(Thread id21) entering the shop at Mon Mar 16 13:46:02 GMT 2020
+Customer : Customer 7(Thread id21) got the chair.
+Barber 2 has been awaken by a customer from the queue.
+Cuting hair of Customer : Customer 7(Thread id21)by Barber 2
+Completed Cuting hair of Customer : Customer 4(Thread id18)by Barber 3 in 15 seconds.
+Barber 3 waiting for customer from the queue and fall asleep.
+Barber 3 fall asleep while waiting for customer.
+Completed Cuting hair of Customer : Customer 5(Thread id19)by Barber 1 in 15 seconds.
+Barber 1 waiting for customer from the queue and fall asleep.
+Barber 1 fall asleep while waiting for customer.
+Customer : Customer 8(Thread id22) entering the shop at Mon Mar 16 13:46:06 GMT 2020
+Customer : Customer 8(Thread id22) got the chair.
+Barber 3 has been awaken by a customer from the queue.
+Cuting hair of Customer : Customer 8(Thread id22)by Barber 3
+Customer : Customer 9(Thread id23) entering the shop at Mon Mar 16 13:46:12 GMT 2020
+Customer : Customer 9(Thread id23) got the chair.
+Barber 1 has been awaken by a customer from the queue.
+Cuting hair of Customer : Customer 9(Thread id23)by Barber 1
+Customer : Customer 10(Thread id24) entering the shop at Mon Mar 16 13:46:18 GMT 2020
+Customer : Customer 10(Thread id24) got the chair.
+Completed Cuting hair of Customer : Customer 7(Thread id21)by Barber 2 in 20 seconds.
+Barber 2 waiting for customer, awake customer if any customer avaialble in queue else fall asleep
+Barber 2 has been awaken by a customer from the queue.
+Cuting hair of Customer : Customer 10(Thread id24)by Barber 2
+Completed Cuting hair of Customer : Customer 9(Thread id23)by Barber 1 in 10 seconds.
+Barber 1 waiting for customer from the queue and fall asleep.
+Barber 1 fall asleep while waiting for customer.
+Customer : Customer 11(Thread id25) entering the shop at Mon Mar 16 13:46:24 GMT 2020
+Customer : Customer 11(Thread id25) got the chair.
+Barber 1 has been awaken by a customer from the queue.
+Cuting hair of Customer : Customer 11(Thread id25)by Barber 1
+Customer : Customer 12(Thread id26) entering the shop at Mon Mar 16 13:46:30 GMT 2020
+Customer : Customer 12(Thread id26) got the chair.
+Completed Cuting hair of Customer : Customer 8(Thread id22)by Barber 3 in 30 seconds.
+Barber 3 waiting for customer, awake customer if any customer avaialble in queue else fall asleep
+Barber 3 has been awaken by a customer from the queue.
+Cuting hair of Customer : Customer 12(Thread id26)by Barber 3
+Customer : Customer 13(Thread id27) entering the shop at Mon Mar 16 13:46:36 GMT 2020
+Customer : Customer 13(Thread id27) got the chair.
+Completed Cuting hair of Customer : Customer 10(Thread id24)by Barber 2 in 15 seconds.
+Barber 2 waiting for customer, awake customer if any customer avaialble in queue else fall asleep
+Barber 2 has been awaken by a customer from the queue.
+Cuting hair of Customer : Customer 13(Thread id27)by Barber 2
+Completed Cuting hair of Customer : Customer 11(Thread id25)by Barber 1 in 15 seconds.
+Barber 1 waiting for customer from the queue and fall asleep.
+Barber 1 fall asleep while waiting for customer.
+Customer : Customer 14(Thread id28) entering the shop at Mon Mar 16 13:46:40 GMT 2020
+Customer : Customer 14(Thread id28) got the chair.
+Barber 1 has been awaken by a customer from the queue.
+Cuting hair of Customer : Customer 14(Thread id28)by Barber 1
+Customer : Customer 15(Thread id29) entering the shop at Mon Mar 16 13:46:48 GMT 2020
+Customer : Customer 15(Thread id29) got the chair.
